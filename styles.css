@@ -1,0 +1,35 @@
+@import url("s1.css");
+@import url("s2.css");
+@import url("s3.css");
+@import url("s4.css");
+@import url("s5.css");
+@import url("s6.css");
+.s1, .s2, .s3, .s4, .s5, .s6 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  place-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.s1 .sHeight, .s2 .sHeight, .s3 .sHeight, .s4 .sHeight, .s5 .sHeight, .s6 .sHeight {
+  height: 99%;
+  width: 97%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

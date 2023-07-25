@@ -1,0 +1,242 @@
+.s6 {
+  background: url("../IMG/background6.png") center no-repeat;
+  background-size: cover;
+}
+.s6 .sHeight .main {
+  margin: 0 auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 30px;
+}
+.s6 .sHeight .main > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 17px;
+}
+.s6 .sHeight .main > :nth-child(1) .footerUprow {
+  width: 100%;
+  max-width: 50px;
+}
+.s6 .sHeight .main > :nth-child(1) .footerUprow img {
+  width: 100%;
+}
+.s6 .sHeight .main > :nth-child(1) h2, .s6 .sHeight .main > :nth-child(1) p {
+  all: unset;
+}
+.s6 .sHeight .main > :nth-child(1) h2 {
+  font-size: 25px;
+  font-weight: 600;
+  background-image: linear-gradient(268.08deg, #7654F4 12.9%, #9174F5 89%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+.s6 .sHeight .main > :nth-child(1) p {
+  color: rgb(17, 5, 63);
+  opacity: 80%;
+  font-size: 17px;
+}
+.s6 .sHeight .main > :nth-child(1) .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+.s6 .sHeight .main > :nth-child(1) .socials a {
+  width: 100%;
+  max-width: 36px;
+}
+.s6 .sHeight .main > :nth-child(1) .socials a img {
+  width: 100%;
+}
+.s6 .sHeight .main > :nth-child(2) {
+  gap: 20px;
+  margin: 0 auto;
+  width: 47.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+.s6 .sHeight .main > :nth-child(2) button {
+  all: unset;
+  text-align: center;
+  color: white;
+  border-radius: 24px;
+  cursor: pointer;
+  padding: 11.5px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  background: rgb(128, 73, 253);
+  -webkit-box-shadow: 0px 4px 12px 0px rgba(7, 1, 28, 0.15);
+          box-shadow: 0px 4px 12px 0px rgba(7, 1, 28, 0.15);
+}
+.s6 .sHeight .footer {
+  margin: 0 auto;
+}
+.s6 .sHeight .footer .intFooter h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  font-size: 16.5px;
+  gap: 7.5px;
+}
+.s6 .sHeight .footer .intFooter h2 > div {
+  background: url("../IMG/upPurple.svg") center no-repeat;
+  background-size: cover;
+  height: 24px;
+  width: 24px;
+}
+.s6 .sHeight .footer .intFooter h2 span {
+  font-weight: 600;
+  background-image: linear-gradient(268.08deg, #7654F4 12.9%, #9174F5 89%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1000px) {
+  .s6 .sHeight .main > :nth-child(2) {
+    width: 60%;
+  }
+}
+@media (max-width: 700px) {
+  .s6 .sHeight .main > :nth-child(2) {
+    width: 80%;
+  }
+}
+@media (max-width: 600px) {
+  .s6 {
+    background: url("../IMG/background6M.png") center no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  .s6 .sHeight {
+    height: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .s6 .sHeight .main {
+    margin: 0 auto;
+    width: 95%;
+    gap: 30px;
+  }
+  .s6 .sHeight .main > :nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 15px;
+  }
+  .s6 .sHeight .main > :nth-child(1) .footerUprow {
+    width: 100%;
+    max-width: 35px;
+  }
+  .s6 .sHeight .main > :nth-child(1) h2 {
+    font-size: 20px;
+    font-weight: 600;
+    background-image: linear-gradient(268.08deg, #7654F4 12.9%, #9174F5 89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+  }
+  .s6 .sHeight .main > :nth-child(1) p {
+    color: rgb(17, 5, 63);
+    opacity: 80%;
+    font-size: 14px;
+  }
+  .s6 .sHeight .main > :nth-child(1) .socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 15px;
+  }
+  .s6 .sHeight .main > :nth-child(1) .socials a {
+    width: 100%;
+    max-width: 30px;
+  }
+  .s6 .sHeight .main > :nth-child(1) .socials a img {
+    width: 100%;
+  }
+  .s6 .sHeight .main > :nth-child(2) {
+    gap: 20px;
+    margin: 0 auto;
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .s6 .sHeight .main > :nth-child(2) button {
+    all: unset;
+    text-align: center;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+    padding: 11.5px 0px;
+    font-weight: 400;
+    font-size: 12px;
+    background: rgb(128, 73, 253);
+    -webkit-box-shadow: 0px 4px 12px 0px rgba(7, 1, 28, 0.15);
+            box-shadow: 0px 4px 12px 0px rgba(7, 1, 28, 0.15);
+  }
+  .s6 .sHeight .footer {
+    margin: 0 auto;
+  }
+  .s6 .sHeight .footer .intFooter h2 {
+    font-size: 13.5px;
+    gap: 7.5px;
+  }
+  .s6 .sHeight .footer .intFooter h2 > div {
+    height: 21px;
+    width: 21px;
+  }
+}

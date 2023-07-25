@@ -1,0 +1,42 @@
+.purpleButton{
+	all: unset;
+	border-radius: 33px;
+	padding: 16px, 0px, 16px, 0px;
+	background: linear-gradient(180deg, #9174F5 0%, #7654F4 100%);
+	box-shadow: 0px 4px 20px 0px rgba(152, 108, 253, 1);
+	text-align: center;
+	width: 140px;
+	height: 48.2px;
+	color: white;
+	font-weight: 500;
+	font-size: 13.8px;
+	cursor: pointer;
+}
+
+.whiteButton{
+	all: unset;
+	border-radius: 33px;
+	padding: 16px, 0px, 16px, 0px;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 4px 20px 0px rgba(152, 108, 253, 1);
+	text-align: center;
+	width: 140px;
+	height: 48.2px;
+	color: rgba(152, 108, 253, 1);
+	font-weight: 500;
+	font-size: 13.8px;
+	cursor: pointer;
+}
+
+.heavyGradient{
+	background: linear-gradient(86.05deg, #B369FF 19.6%, #793CFF 96.12%);
+	color: transparent;
+	background-clip: text; 
+	-webkit-background-clip: text; 
+}
+
+.semiGradiente{
+	background-image: linear-gradient(268.08deg, #7654F4 12.9%, #9174F5 89%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

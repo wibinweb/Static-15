@@ -1,0 +1,900 @@
+.s1 {
+  background: url("../IMG/background1.png") center no-repeat;
+  background-size: cover;
+}
+.s1 .sHeight .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.s1 .sHeight .header > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+.s1 .sHeight .header > :nth-child(1) > :nth-child(1) {
+  width: 100%;
+  max-width: 25px;
+}
+.s1 .sHeight .header > :nth-child(1) > :nth-child(1) img {
+  width: 100%;
+}
+.s1 .sHeight .header > :nth-child(1) > :nth-child(2) h1 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  background-image: linear-gradient(268.08deg, #7654F4 12.9%, #9174F5 89%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.s1 .sHeight .header > :nth-child(2) {
+  width: 100%;
+  max-width: 25px;
+}
+.s1 .sHeight .header > :nth-child(2) img {
+  width: 100%;
+}
+.s1 .sHeight .main {
+  margin: 0 auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.s1 .sHeight .main .containTS {
+  position: relative;
+}
+.s1 .sHeight .main .containTS .stars {
+  position: absolute;
+  height: 160%;
+  width: 115%;
+  top: -30%;
+}
+.s1 .sHeight .main .containTS .stars .star1 {
+  position: absolute;
+  background: url("../IMG/star1.svg") center no-repeat;
+  background-size: cover;
+  height: 23px;
+  width: 23px;
+  left: 6.5%;
+  top: 9%;
+}
+.s1 .sHeight .main .containTS .stars .star2 {
+  position: absolute;
+  background: url("../IMG/star2.svg") center no-repeat;
+  background-size: cover;
+  height: 33px;
+  width: 33px;
+  right: 39%;
+  top: 0%;
+}
+.s1 .sHeight .main .containTS .stars .star3 {
+  position: absolute;
+  background: url("../IMG/circle.svg") center no-repeat;
+  background-size: cover;
+  height: 17px;
+  width: 17px;
+  right: 5%;
+  top: 32%;
+}
+.s1 .sHeight .main .containTS .stars .star4 {
+  position: absolute;
+  background: url("../IMG/star1.svg") center no-repeat;
+  background-size: cover;
+  height: 33px;
+  width: 33px;
+  right: 17%;
+  bottom: 25%;
+}
+.s1 .sHeight .main .containTS .stars .star5 {
+  position: absolute;
+  background: url("../IMG/star2.svg") center no-repeat;
+  background-size: cover;
+  height: 25px;
+  width: 25px;
+  left: 7%;
+  bottom: 5%;
+}
+.s1 .sHeight .main .containTS > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 15px;
+  position: relative;
+}
+.s1 .sHeight .main .containTS > :nth-child(2) h3, .s1 .sHeight .main .containTS > :nth-child(2) h5, .s1 .sHeight .main .containTS > :nth-child(2) h4 {
+  all: unset;
+}
+.s1 .sHeight .main .containTS > :nth-child(2) h3 {
+  font-size: 44px;
+  font-weight: 400;
+}
+.s1 .sHeight .main .containTS > :nth-child(2) h3 span {
+  font-weight: 500;
+  background: linear-gradient(86.05deg, #B369FF 19.6%, #793CFF 96.12%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.s1 .sHeight .main .containTS > :nth-child(2) h5 {
+  font-size: 28px;
+  font-weight: 300;
+}
+.s1 .sHeight .main .containTS > :nth-child(2) h5 span {
+  font-weight: 600;
+  background: rgba(118, 84, 244, 0.3);
+  padding-right: 5.5px;
+}
+.s1 .sHeight .main .containTS > :nth-child(2) h4 {
+  margin-top: -15.5px;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(128, 73, 253);
+  position: relative;
+}
+.s1 .sHeight .main .containTS > :nth-child(2) .underline {
+  position: absolute;
+  background: url("../IMG/underlineGrey.svg") center no-repeat;
+  width: 120px;
+  height: 20px;
+  bottom: 30%;
+  left: 33%;
+}
+.s1 .sHeight .main .containTS > :nth-child(2) button {
+  all: unset;
+  border-radius: 33px;
+  padding: 16px, 0px, 16px, 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9174F5), to(#7654F4));
+  background: linear-gradient(180deg, #9174F5 0%, #7654F4 100%);
+  -webkit-box-shadow: 0px 4px 20px 0px rgb(152, 108, 253);
+          box-shadow: 0px 4px 20px 0px rgb(152, 108, 253);
+  text-align: center;
+  width: 160px;
+  height: 52px;
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.s1 .sHeight .main .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 11.5px;
+}
+.s1 .sHeight .main .cards .columnCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 11.5px;
+}
+.s1 .sHeight .main .cards .columnCards .cardP {
+  border: 1px solid rgb(118, 84, 244);
+  background: rgb(118, 84, 244);
+}
+.s1 .sHeight .main .cards .columnCards .cardW {
+  border: 1px solid rgb(214, 226, 233);
+  background: rgb(243, 246, 254);
+}
+.s1 .sHeight .main .cards .columnCards .card {
+  height: 200px;
+  width: 128px;
+  border-radius: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-content: center;
+}
+.s1 .sHeight .main .cards .columnCards .card .intCard1, .s1 .sHeight .main .cards .columnCards .card .intCard2 {
+  border-radius: 50%;
+  height: 33px;
+  width: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px;
+}
+.s1 .sHeight .main .cards .columnCards .card .intCard1 img, .s1 .sHeight .main .cards .columnCards .card .intCard2 img {
+  width: 100%;
+  max-width: 18px;
+}
+.s1 .sHeight .main .cards .columnCards .card .intCard1 {
+  background: rgb(255, 255, 255);
+}
+.s1 .sHeight .main .cards .columnCards .card .intCard2 {
+  background: rgb(118, 84, 244);
+}
+.s1 .sHeight .main .hiddenButton {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .s1 .sHeight .main {
+    margin: 0 auto;
+    width: 98%;
+  }
+}
+@media (max-width: 880px) {
+  .s1 .sHeight .header {
+    margin: 0 auto;
+    width: 95%;
+  }
+  .s1 .sHeight .main .containTS .stars {
+    position: absolute;
+    height: 160%;
+    width: 115%;
+    top: -30%;
+  }
+  .s1 .sHeight .main .containTS .stars .star1 {
+    height: 19px;
+    width: 19px;
+    left: 6.5%;
+    top: 10%;
+  }
+  .s1 .sHeight .main .containTS .stars .star2 {
+    height: 29px;
+    width: 29px;
+    right: 39%;
+    top: 1%;
+  }
+  .s1 .sHeight .main .containTS .stars .star3 {
+    height: 13px;
+    width: 13px;
+    right: 8%;
+    top: 33%;
+  }
+  .s1 .sHeight .main .containTS .stars .star4 {
+    height: 29px;
+    width: 29px;
+    right: 17%;
+    bottom: 26%;
+  }
+  .s1 .sHeight .main .containTS .stars .star5 {
+    height: 21px;
+    width: 21px;
+    left: 7%;
+    bottom: 5%;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 12.5px;
+    position: relative;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h3 {
+    font-size: 40px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h5 {
+    font-size: 24px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h4 {
+    margin-top: -15.5px;
+    font-size: 36px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) .underline {
+    width: 115px;
+    height: 20px;
+    bottom: 30%;
+    left: 29%;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) button {
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .s1 .sHeight .main .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 9px;
+  }
+  .s1 .sHeight .main .cards .columnCards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 9px;
+  }
+  .s1 .sHeight .main .cards .columnCards .cardP {
+    border: 1px solid rgb(118, 84, 244);
+    background: rgb(118, 84, 244);
+  }
+  .s1 .sHeight .main .cards .columnCards .cardW {
+    border: 1px solid rgb(214, 226, 233);
+    background: rgb(243, 246, 254);
+  }
+  .s1 .sHeight .main .cards .columnCards .card {
+    height: 190px;
+    width: 121px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card .intCard1, .s1 .sHeight .main .cards .columnCards .card .intCard2 {
+    height: 31px;
+    width: 31px;
+    padding: 3px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card .intCard1 img, .s1 .sHeight .main .cards .columnCards .card .intCard2 img {
+    width: 100%;
+    max-width: 15px;
+  }
+}
+@media (max-width: 800px) {
+  .s1 {
+    background: url("../IMG/background1M.png") center no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .s1 .sHeight {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .s1 .sHeight .header > :nth-child(1) {
+    gap: 4px;
+  }
+  .s1 .sHeight .header > :nth-child(1) > :nth-child(1) {
+    max-width: 22px;
+  }
+  .s1 .sHeight .header > :nth-child(1) > :nth-child(2) h1 {
+    font-size: 23px;
+  }
+  .s1 .sHeight .header > :nth-child(2) {
+    max-width: 23px;
+  }
+  .s1 .sHeight .main {
+    margin: 0 auto;
+    width: 97%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 30px;
+  }
+  .s1 .sHeight .main .containTS {
+    position: relative;
+  }
+  .s1 .sHeight .main .containTS .stars {
+    position: absolute;
+    height: 160%;
+    width: 115%;
+    top: -30%;
+    left: -5%;
+  }
+  .s1 .sHeight .main .containTS .stars .star1 {
+    position: absolute;
+    background: url("../IMG/star2.svg") center no-repeat;
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+    right: 9%;
+    top: 40.1%;
+  }
+  .s1 .sHeight .main .containTS .stars .star2 {
+    position: absolute;
+    background: url("../IMG/circle.svg") center no-repeat;
+    background-size: cover;
+    height: 11px;
+    width: 11px;
+    right: 38%;
+    top: 3%;
+  }
+  .s1 .sHeight .main .containTS .stars .star3 {
+    position: absolute;
+    background: url("../IMG/circle.svg") center no-repeat;
+    background-size: cover;
+    height: 17px;
+    width: 17px;
+    right: 1%;
+    top: 30%;
+  }
+  .s1 .sHeight .main .containTS .stars .star4 {
+    position: absolute;
+    background: url("../IMG/star2.svg") center no-repeat;
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+    right: 19%;
+    top: 40.1%;
+  }
+  .s1 .sHeight .main .containTS .stars .star5 {
+    position: absolute;
+    background: url("../IMG/star2.svg") center no-repeat;
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    bottom: 20%;
+    left: 0%;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 13px;
+    text-align: center;
+    position: relative;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h3 {
+    font-size: 30px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h5 {
+    font-size: 30px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h5 span {
+    background: rgba(118, 84, 244, 0.2);
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h4 {
+    font-size: 34px;
+    margin-top: 0px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) .underline {
+    width: 120px;
+    height: 20px;
+    bottom: -8%;
+    left: 46%;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) button {
+    display: none;
+  }
+  .s1 .sHeight .main .cards {
+    gap: 11px;
+  }
+  .s1 .sHeight .main .cards .columnCards {
+    gap: 11px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card {
+    height: 190px;
+    width: 121px;
+    border-radius: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    place-content: center;
+  }
+  .s1 .sHeight .main .cards .columnCards .card .intCard1, .s1 .sHeight .main .cards .columnCards .card .intCard2 {
+    border-radius: 50%;
+    height: 31px;
+    width: 31px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 3px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card .intCard1 img, .s1 .sHeight .main .cards .columnCards .card .intCard2 img {
+    width: 100%;
+    max-width: 16px;
+  }
+  .s1 .sHeight .main .hiddenButton {
+    display: block;
+  }
+  .s1 .sHeight .main .hiddenButton button {
+    all: unset;
+    border-radius: 33px;
+    padding: 16px, 0px, 16px, 0px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9174F5), to(#7654F4));
+    background: linear-gradient(180deg, #9174F5 0%, #7654F4 100%);
+    -webkit-box-shadow: 0px 4px 20px 0px rgb(152, 108, 253);
+            box-shadow: 0px 4px 20px 0px rgb(152, 108, 253);
+    text-align: center;
+    width: 130px;
+    height: 44.8px;
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 500px) {
+  .s1 .sHeight .header > :nth-child(1) {
+    gap: 3px;
+  }
+  .s1 .sHeight .header > :nth-child(1) > :nth-child(1) {
+    max-width: 19px;
+  }
+  .s1 .sHeight .header > :nth-child(1) > :nth-child(2) h1 {
+    font-size: 19px;
+  }
+  .s1 .sHeight .header > :nth-child(2) {
+    max-width: 19px;
+  }
+  .s1 .sHeight .main .containTS .stars {
+    position: absolute;
+    height: 120%;
+    width: 105%;
+    top: -10%;
+    left: -2%;
+  }
+  .s1 .sHeight .main .containTS .stars .star1 {
+    position: absolute;
+    background: url("../IMG/star2.svg") center no-repeat;
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+    right: 9%;
+    top: 20.1%;
+  }
+  .s1 .sHeight .main .containTS .stars .star2 {
+    position: absolute;
+    background: url("../IMG/circle.svg") center no-repeat;
+    background-size: cover;
+    height: 11px;
+    width: 11px;
+    right: 38%;
+    top: 0%;
+  }
+  .s1 .sHeight .main .containTS .stars .star3 {
+    position: absolute;
+    background: url("../IMG/circle.svg") center no-repeat;
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+    right: 0%;
+    top: 30%;
+  }
+  .s1 .sHeight .main .containTS .stars .star4 {
+    position: absolute;
+    background: url("../IMG/star2.svg") center no-repeat;
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+    right: 19%;
+    top: 40.1%;
+  }
+  .s1 .sHeight .main .containTS .stars .star5 {
+    position: absolute;
+    background: url("../IMG/star2.svg") center no-repeat;
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    bottom: 20%;
+    left: 0%;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 11px;
+    text-align: center;
+    position: relative;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h3 {
+    font-size: 19px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h5 {
+    font-size: 19px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h5 span {
+    background: rgba(118, 84, 244, 0.2);
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h4 {
+    font-size: 25px;
+    margin-top: 0px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) .underline {
+    width: 50px;
+    height: 20px;
+    bottom: -8%;
+    left: 49%;
+  }
+  .s1 .sHeight .main .cards {
+    gap: 9px;
+  }
+  .s1 .sHeight .main .cards .columnCards {
+    gap: 9px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card {
+    height: 160px;
+    width: 102px;
+    border-radius: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    place-content: center;
+  }
+  .s1 .sHeight .main .cards .columnCards .card .intCard1, .s1 .sHeight .main .cards .columnCards .card .intCard2 {
+    border-radius: 50%;
+    height: 24.6px;
+    width: 24.6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card .intCard1 img, .s1 .sHeight .main .cards .columnCards .card .intCard2 img {
+    width: 100%;
+    max-width: 13px;
+  }
+  .s1 .sHeight .main .hiddenButton {
+    display: block;
+  }
+  .s1 .sHeight .main .hiddenButton button {
+    all: unset;
+    border-radius: 33px;
+    padding: 16px, 0px, 16px, 0px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9174F5), to(#7654F4));
+    background: linear-gradient(180deg, #9174F5 0%, #7654F4 100%);
+    -webkit-box-shadow: 0px 4px 20px 0px rgb(152, 108, 253);
+            box-shadow: 0px 4px 20px 0px rgb(152, 108, 253);
+    text-align: center;
+    width: 120px;
+    height: 41px;
+    color: white;
+    font-weight: 500;
+    font-size: 11px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 370px) {
+  .s1 .sHeight .header > :nth-child(1) > :nth-child(1) {
+    max-width: 17px;
+  }
+  .s1 .sHeight .header > :nth-child(1) > :nth-child(2) h1 {
+    font-size: 17px;
+  }
+  .s1 .sHeight .header > :nth-child(2) {
+    max-width: 17px;
+  }
+  .s1 .sHeight .main .containTS .stars {
+    display: none;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 11px;
+    text-align: center;
+    position: relative;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h3 {
+    font-size: 17px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h5 {
+    font-size: 17px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h4 {
+    font-size: 23px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) .underline {
+    width: 50px;
+    height: 20px;
+    bottom: -12%;
+    left: 49%;
+  }
+  .s1 .sHeight .main .cards {
+    gap: 7.5px;
+  }
+  .s1 .sHeight .main .cards .columnCards {
+    gap: 7.5px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card {
+    height: 150px;
+    width: 96.1px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card .intCard1, .s1 .sHeight .main .cards .columnCards .card .intCard2 {
+    height: 22.3px;
+    width: 22.3px;
+    padding: 2px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card .intCard1 img, .s1 .sHeight .main .cards .columnCards .card .intCard2 img {
+    width: 100%;
+    max-width: 12px;
+  }
+  .s1 .sHeight .main .hiddenButton button {
+    all: unset;
+    border-radius: 33px;
+    padding: 16px, 0px, 16px, 0px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9174F5), to(#7654F4));
+    background: linear-gradient(180deg, #9174F5 0%, #7654F4 100%);
+    -webkit-box-shadow: 0px 4px 20px 0px rgb(152, 108, 253);
+            box-shadow: 0px 4px 20px 0px rgb(152, 108, 253);
+    text-align: center;
+    width: 110px;
+    height: 35px;
+    color: white;
+    font-weight: 500;
+    font-size: 10px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 335px) {
+  .s1 .sHeight .main .containTS .stars {
+    display: none;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    gap: 10px;
+    text-align: center;
+    position: relative;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h3 {
+    font-size: 15px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h5 {
+    font-size: 15px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) h4 {
+    font-size: 21px;
+  }
+  .s1 .sHeight .main .containTS > :nth-child(2) .underline {
+    width: 50px;
+    height: 20px;
+    bottom: -12%;
+    left: 49%;
+  }
+  .s1 .sHeight .main .cards {
+    gap: 6.5px;
+  }
+  .s1 .sHeight .main .cards .columnCards {
+    gap: 6.5px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card {
+    height: 140px;
+    width: 89px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card .intCard1, .s1 .sHeight .main .cards .columnCards .card .intCard2 {
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card .intCard1 img, .s1 .sHeight .main .cards .columnCards .card .intCard2 img {
+    width: 100%;
+    max-width: 11px;
+  }
+  .s1 .sHeight .main .hiddenButton button {
+    all: unset;
+    border-radius: 33px;
+    padding: 16px, 0px, 16px, 0px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9174F5), to(#7654F4));
+    background: linear-gradient(180deg, #9174F5 0%, #7654F4 100%);
+    -webkit-box-shadow: 0px 4px 20px 0px rgb(152, 108, 253);
+            box-shadow: 0px 4px 20px 0px rgb(152, 108, 253);
+    text-align: center;
+    width: 100px;
+    height: 32px;
+    color: white;
+    font-weight: 500;
+    font-size: 9px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 295px) {
+  .s1 .sHeight .main .cards {
+    gap: 6px;
+  }
+  .s1 .sHeight .main .cards .columnCards {
+    gap: 6px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card {
+    height: 125px;
+    width: 80px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card .intCard1, .s1 .sHeight .main .cards .columnCards .card .intCard2 {
+    height: 17px;
+    width: 17px;
+    padding: 2px;
+  }
+  .s1 .sHeight .main .cards .columnCards .card .intCard1 img, .s1 .sHeight .main .cards .columnCards .card .intCard2 img {
+    width: 100%;
+    max-width: 9.5px;
+  }
+}
